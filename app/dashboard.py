@@ -5,13 +5,13 @@ import plotly.express as px
 from datetime import datetime
 
 # ─── Page Config ────────────────────────────────────────────────────────────
-st.set_page_config(
+st.set_page_config( 
     page_title="NetGuard IDS · Security Operations Center",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
+ 
 # ─── Global CSS ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
